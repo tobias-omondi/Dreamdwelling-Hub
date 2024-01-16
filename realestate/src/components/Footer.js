@@ -1,10 +1,10 @@
 import React from 'react'
-import Asset from './Assets/Download Free Vectors, Images, Photos & Videos _ Vecteezy.jpeg'
+import Asset from './Asset/Download Free Vectors, Images, Photos & Videos _ Vecteezy.jpeg'
 import './Footer.css'
 import { Link } from "react-router-dom";
-import Asset1 from  './Assets/6 Ways to Grow Your Facebook Page Audience.jpeg'
-import Asset2 from './Assets/Cuisenaire Rods in the Classroom.jpeg'
-import Asset3 from './Assets/Elon Musk.jpeg'
+import Asset1 from  './Asset/6 Ways to Grow Your Facebook Page Audience.jpeg'
+import Asset2 from './Asset/Cuisenaire Rods in the Classroom.jpeg'
+import Asset3 from './Asset/Elon Musk.jpeg'
 
 
 
