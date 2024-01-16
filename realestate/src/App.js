@@ -6,11 +6,13 @@ import Companies from './components/Companies';
 import Agents from './components/Agents';
 import Login from './components/Login';
 import Signup from './components/Signup';
+import Navbar from './components/Navbar';
 
 function App() {
   
   return (
     <Router>
+       <Navbar />
     <div className="App">
       <header className="App-header">
         <Routes>
@@ -21,8 +23,6 @@ function App() {
           <Route path='/Login' element = {<Login/>}/>
           <Route path='/Signup' element = {<Signup/>}/>
         </Routes>
-
-     
       </header>
     </div>
     </Router>
