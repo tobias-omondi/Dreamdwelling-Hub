@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Companies from './components/Companies';
@@ -17,16 +17,15 @@ function App() {
       <header className="App-header">
         <Routes>
           <Route path='/' element = {<Home/>}/>
-          <Route path='/About us' element = {<About/>}/>
-          <Route path='/Companies' element = {<Companies/>}/>
-          <Route path='/Agent' element = {<Agents/>}/>
-          <Route path='/Login' element = {<Login/>}/>
-          <Route path='/Signup' element = {<Signup/>}/>
+          <Route path='/about' element = {<About/>}/>
+          <Route path='/companies' element = {<Companies/>}/>
+          <Route path='/agent' element = {<Agents/>}/>
+          <Route path='/login' element = {<Login/>}/>
+          <Route path='/signup' element = {<Signup/>}/>
         </Routes>
       </header>
     </div>
     </Router>
   );
 }
-
 export default App;
