@@ -1,0 +1,7 @@
+.navbar {
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+    justify-content: space-evenly;
+}
