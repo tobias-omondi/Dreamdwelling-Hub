@@ -11,7 +11,7 @@ import Asset3 from './Asset/Elon Musk.jpeg'
 
 const Footer = () => {
 
-    const faceBookUrl = 'https://www.facebook.com'
+    const faceBookUrl = 'https://www.facebook.com/'
     const instaGram = 'https://www.instagram.com/'
     const twitter = 'https://twitter.com/'
 
@@ -49,6 +49,7 @@ const Footer = () => {
 
             <a href={twitter} target = "blank" alt = 'x'>
                 <img src= {Asset3} alt='twit'/> </a>
+               
             
         </div>
     </div>
