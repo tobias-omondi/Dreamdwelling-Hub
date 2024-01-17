@@ -7,4 +7,20 @@
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
+    text-decoration: none;
+}
+.nav_live {
+   color: black; 
+   font-size: 19px;
+}
+.nav_live_btn {
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkgreen;
+}
+button {
+    color: transparent;
+}
+button:hover {
+    background-color: orange;
 }
