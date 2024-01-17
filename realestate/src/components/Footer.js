@@ -20,24 +20,22 @@ const Footer = () => {
     <div className='footer'>
         <div className='footer_logo'>
             <img src={Asset} alt='house logo' />
-            <h3>PROPERTY Pulse</h3>
-            <p>Discover unparalleled comfort and style in our exquisite houses,<br/>
-            where modern amenities seamlessly blend with timeless design,<br/> 
-            creating the perfect sanctuary for your lifestyle.<br/> 
-            Elevate your living experience with our thoughtfully crafted homes<br/>
-            that redefine luxury and sophistication</p>
+            <h3>DreamDwelling Hub</h3>
         </div>
         <div className='footer_services'>
             <h4>servives</h4>
-            <Link to= 'Houses for Rent'>Houses for Rent</Link>
-            <Link to= 'Houses for Sale'>Houses for Sale</Link>
-            <Link to= 'Rent to own'>Rent to own</Link>
+            <Link to= 'Houses for Rent'className='link' style={{textDecoration: "none"}} >Houses for Rent</Link>
+            <Link to= 'Houses for Sale' className='link' style={{textDecoration: "none"}} >Houses for Sale</Link>
+            <Link to= 'Rent to own' className='link' style={{textDecoration: "none"}} >Rent to own</Link>
+
         </div>
         <div className='footer_Contact'>
-            <h4>Connect with us</h4>
-            <Link to= 'Houses for Rent'>Home</Link>
-            <Link to= 'Houses for Sale'>Properties</Link>
-            <Link to= 'Rent to own'>About us</Link>
+            <h4>Connect with us on</h4>
+            <Link to= '/' className='link' style={{textDecoration: "none"}} >Home</Link>
+            <Link to= '/properties' className='link' style={{textDecoration: "none"}} >Properties</Link>
+            <Link to= '/about' className='link' style={{textDecoration: "none"}} >About us</Link>
+            <Link to= '/companies'className='link' style={{textDecoration: "none"}}>Companies</Link>
+           
         </div>
         <div className='footer_page'>
             <h4>Follow US</h4>
