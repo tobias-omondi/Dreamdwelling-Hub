@@ -14,7 +14,7 @@ function App() {
     <Router>
        <Navbar />
     <div className="App">
-      <header className="App-header">
+      <header className="App_links">
         <Routes>
           <Route path='/' element = {<Home/>}/>
           <Route path='/about' element = {<About/>}/>
