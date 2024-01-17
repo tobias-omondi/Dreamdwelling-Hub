@@ -24,9 +24,9 @@ const Footer = () => {
         </div>
         <div className='footer_services'>
             <h4>servives</h4>
-            <Link to= 'Houses for Rent'className='link' style={{textDecoration: "none"}} >Houses for Rent</Link>
-            <Link to= 'Houses for Sale' className='link' style={{textDecoration: "none"}} >Houses for Sale</Link>
-            <Link to= 'Rent to own' className='link' style={{textDecoration: "none"}} >Rent to own</Link>
+            <Link to= 'Houses for Rent'className='link' style={{textDecoration: "none"}} >Houses for Rent <br/></Link>
+            <Link to= 'Houses for Sale' className='link' style={{textDecoration: "none"}} >Houses for Sale <br/></Link>
+            <Link to= 'Rent to own' className='link' style={{textDecoration: "none"}} >Rent to own <br/></Link>
 
         </div>
         <div className='footer_Contact'>

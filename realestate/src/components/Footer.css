@@ -42,11 +42,11 @@
     margin-right: -50%
 }
 .link {
-    color: beige;
+    color: rgb(218, 143, 115);
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    padding: 5px;
 }
-/* .footer_page {
-
-} */
 .footer_page img {
     width: 6%;
     padding: 10px;
