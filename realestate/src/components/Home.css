@@ -79,6 +79,12 @@
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
 }
+.search {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.search h2 {
+    color: black;
+}
 
 
 

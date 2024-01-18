@@ -31,6 +31,13 @@ const Home = () => {
         <h1> <span style={{color : 'Blue'}}>+</span> 100 </h1>
         <h4>Awards</h4>
       </div>
+      <div className='search'>
+        <h2> Search for available Properties</h2>
+
+        <input type='text' className='properties_search' placeholder='Properties'/><br/>
+        <input type='text' className='location_search'/><br/>
+        <input type='text' className='budget_search' placeholder='Budget'/>
+      </div>
 
       <div> 
         <Footer />
