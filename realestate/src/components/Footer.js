@@ -1,5 +1,5 @@
 import React from 'react'
-import Asset from './Asset/Download Free Vectors, Images, Photos & Videos _ Vecteezy.jpeg'
+import Asset from './Asset/Real Property Clipart PNG Images, Home House Real Estate Property Building Logo Vector, Roof Clipart, Property, Icon PNG Image For Free Download.jpeg'
 import './Footer.css'
 import { Link } from "react-router-dom";
 import Asset1 from  './Asset/6 Ways to Grow Your Facebook Page Audience.jpeg'

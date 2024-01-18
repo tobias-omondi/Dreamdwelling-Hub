@@ -1,0 +1,33 @@
+.house_page {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
+.house_page img {
+    width: 100%;
+}
+@media screen and (max-width:992px) {
+    .house_page img {
+        width: 100%;
+        height: 10vh;
+    }   
+}
+@media screen and (max-width:600px) {
+    .house_page img {
+        width: 100%;
+        height: 10vh;
+    }   
+}
+.house_ge h2 {
+    top: 60%;
+    color: white;
+   padding-right: 80%;
+   margin-top: -40%;
+   font-size: 35px;
+}
+.house_ge p {
+    color: white;
+    margin-top: 5%;
+    font-size: 25px;
+    padding-right: 80%;
+}
