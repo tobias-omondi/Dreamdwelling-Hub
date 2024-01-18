@@ -32,12 +32,17 @@ const Home = () => {
         <h4>Awards</h4>
       </div>
       <div className='search'>
-        <h2> Search for available Properties</h2>
+        <p> Search for available Properties</p>
 
-        <input type='text' className='properties_search' placeholder='Properties'/><br/>
-        <input type='text' className='location_search'/><br/>
-        <input type='text' className='budget_search' placeholder='Budget'/>
+        <button type='button' className='properties_search_button'>Search Properties .</button><br/>
+        <button type='button' className='location_search_button'>Search Location .</button><br/>
+        <button type='button' className='budget_search_button'>Search by Budget .</button>
       </div>
+
+      {/* <div className='ser_tag'>
+        <h1>Search</h1>
+        <input type='text' placeholder='Search'/>
+      </div> */}
 
       <div> 
         <Footer />
