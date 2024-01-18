@@ -17,6 +17,20 @@ const Home = () => {
       <button className='btn'>
           <Link to='/login' style={{ textDecoration: 'none', color: 'inherit' }}>Get Started.</Link>
       </button>
+      <div className='show_case1'>
+        <h1> <span style={{color : 'Blue'}}>+</span> 1200 </h1>
+        <h4>Listed Properties</h4>
+      </div>
+
+      <div className='show_case2'>
+        <h1> <span style={{color : 'Blue'}}>+ </span> 4500 </h1>
+        <h4>Happy Customers</h4>
+      </div>
+
+      <div className='show_case3'>
+        <h1> <span style={{color : 'Blue'}}>+</span> 100 </h1>
+        <h4>Awards</h4>
+      </div>
 
       <div> 
         <Footer />
