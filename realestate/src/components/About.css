@@ -20,3 +20,23 @@
     padding: 12px;
     margin: 5px;
 }
+.left_side {
+    width: 10%;
+    padding: 5px;
+    height: 12vh;
+    background-position: 50%, 25%;
+}
+.left_side img {
+    width: 140%;
+    vertical-align: middle;
+}
+.right_side {
+    width: 10%;
+    padding: 70px;
+    height: 12vh;
+    left: 0;
+    vertical-align: middle;
+}
+.right_side img {
+    width: 140%;
+}
