@@ -4,6 +4,8 @@ import './About.css'
 import Asset5 from './Asset/Copy clone website.jpeg'
 import Asset6 from './Asset/Outdoor Products_ Cabinetry.jpeg'
 import Asset7 from './Asset/Хрупкое равновесие (18+) - Промо фото.jpeg'
+import Asset8 from './Asset/_Cheerful Black Afro Couple Kitchen__ by Stocksy Contributor _Ivan Gener_.jpeg'
+import Asset9 from './Asset/How To Create The Perfect Moody Dark Academia Room.jpeg'
 
 const About = () => {
   return (
@@ -28,19 +30,46 @@ const About = () => {
      </div>
 
      <div>
-      <h1 className='sion'>Our vision .</h1>
+     <h1 className='sion'>Our vision .</h1>
      </div>
 
      <div className='our_vision'>
-      
-<p>At DwellingHub, our vision is to revolutionize the real estate experience with a focus on simplicity, <br/>
-   transparency, and empowerment. We aspire to create a future where property transactions are seamlessly<br/>
-   navigated, offering users a rich and informed journey. DwellingHub goes beyond a digital marketplace; <br/>
-   it's a community and trusted companion guiding individuals through the exciting adventure of finding,<br/>
-  buying, and selling real estate. Join us in making our vision your reality.</p>
+      <p>At DwellingHub, our vision is to revolutionize the real estate experience with a focus on simplicity, <br/>
+         transparency, and empowerment. We aspire to create a future where property transactions are seamlessly<br/>
+         navigated, offering users a rich and informed journey. DwellingHub goes beyond a digital marketplace; <br/>
+         it's a community and trusted companion guiding individuals through the exciting adventure of finding,<br/>
+         buying, and selling real estate. Join us in making our vision your reality.</p>
   
    <img src={Asset7} alt='vision' />
+     </div>
 
+     <div>
+     <h1 className='sion'>Our Approach .</h1>
+     </div>
+     
+     <div className='our_vision'>
+     <img src={Asset8} alt='home' />
+
+     <p>At DwellingHub, our approach is centered on providing a refreshingly straightforward and empowering <br/>
+        real estate experience. We leverage cutting-edge technology to simplify the complexities of <br/>
+        property transactions, ensuring a seamless journey for our users. Transparency is the cornerstone<br/>
+        of our approach, as we believe in offering clear and comprehensive information to guide informed<br/>
+        decision-making. Whether you're a first-time homebuyer or a seasoned investor, DwellingHub is designed<br/>
+        to be user-friendly, supporting you at every step. Our commitment is not just to facilitate transactions<br/>
+        but to foster a community where your real estate aspirations are met with clarity, confidence, and a touch<br/>
+        of innovation.</p>
+     </div>
+
+     <div className='our_vision'>
+     <p>At DwellingHub, our process is designed to make your real estate journey smooth and rewarding. <br/>
+        We start by employing cutting-edge technology to simplify property transactions, ensuring<br/>
+        efficiency and ease. From browsing listings to making informed decisions, our user-friendly <br/>
+        platform guides you every step of the way. Transparency is key, as we provide clear and detailed <br/>
+        information to empower your choices. Whether you're buying, selling, or investing, DwellingHub's<br/>
+        process is crafted to be straightforward, supportive, and tailored to your unique needs. <br/>
+        Trust us to turn your real estate goals into a seamless and satisfying experience.</p>
+
+        <img src={Asset9} alt='bed' />
      </div>
      
       <div>
