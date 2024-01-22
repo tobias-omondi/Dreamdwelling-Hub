@@ -40,15 +40,15 @@ const About = () => {
          it's a community and trusted companion guiding individuals through the exciting adventure of finding,<br/>
          buying, and selling real estate. Join us in making our vision your reality.</p>
   
-   <img src={Asset7} alt='vision' />
+   <img src={Asset7} className='ranch1' alt='vision' />
      </div>
 
      <div>
-     <h1 className='sion'>Our Approach .</h1>
+     <h1 className='sion1'>Our Approach .</h1>
      </div>
      
      <div className='our_vision'>
-     <img src={Asset8} alt='home' />
+     <img src={Asset8} className='ranch2' alt='home' />
 
      <p>At DwellingHub, our approach is centered on providing a refreshingly straightforward and empowering <br/>
         real estate experience. We leverage cutting-edge technology to simplify the complexities of <br/>
@@ -61,7 +61,7 @@ const About = () => {
      </div>
 
      <div>
-     <h1 className='sion'>Our Process .</h1>
+     <h1 className='sion2'>Our Process .</h1>
      </div>
      
 
@@ -74,7 +74,7 @@ const About = () => {
         process is crafted to be straightforward, supportive, and tailored to your unique needs. <br/>
         Trust us to turn your real estate goals into a seamless and satisfying experience.</p>
 
-        <img src={Asset9} alt='bed' />
+        <img src={Asset9} className='ranch3' alt='bed' />
      </div>
      
       <div>
