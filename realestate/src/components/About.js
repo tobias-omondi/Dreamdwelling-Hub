@@ -47,7 +47,7 @@ const About = () => {
      <h1 className='sion1'>Our Approach .</h1>
      </div>
      
-     <div className='our_vision'>
+     <div className='our_Approach'>
      <img src={Asset8} className='ranch2' alt='home' />
 
      <p>At DwellingHub, our approach is centered on providing a refreshingly straightforward and empowering <br/>
@@ -65,7 +65,7 @@ const About = () => {
      </div>
      
 
-     <div className='our_vision'>
+     <div className='our_Process'>
      <p>At DwellingHub, our process is designed to make your real estate journey smooth and rewarding. <br/>
         We start by employing cutting-edge technology to simplify property transactions, ensuring<br/>
         efficiency and ease. From browsing listings to making informed decisions, our user-friendly <br/>

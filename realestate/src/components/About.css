@@ -44,13 +44,66 @@
     -moz-border-radius: 31px 31px 31px 31px;
 }
 .our_vision img {
-    width: 40%;
-    height: 60vh;
+    width: 30%;
+    margin: 30px;
+    height: 40vh;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     border-radius: 44px 44px 44px 44px;
     -moz-border-radius: 44px 44px 44px 44px;
     -webkit-border-radius: 44px 44px 44px 44px;
     border: 0px solid #000000;
+}
+.our_Approach {
+    display: flex;
+    justify-content: space-around;
+}
+.our_Approach p {
+    font-size: 19px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 800;
+    padding: 12px;
+    margin: 90px;
+    background-color: antiquewhite;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 31px 31px 31px 31px;
+    -webkit-border-radius: 31px 31px 31px 31px;
+    -moz-border-radius: 31px 31px 31px 31px;
+}
+.our_Approach img {
+    width: 35%;
+    margin: 30px;
+    height: 50vh;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    -webkit-border-radius: 44px 44px 44px 44px;
+    border: 0px solid #000000; 
+}
+.our_Process  {
+    display: flex;
+    justify-content: space-around;
+}
+.our_Process p {
+    font-size: 19px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 800;
+    padding: 12px;
+    margin: 90px;
+    background-color: antiquewhite;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 31px 31px 31px 31px;
+    -webkit-border-radius: 31px 31px 31px 31px;
+    -moz-border-radius: 31px 31px 31px 31px;
+}
+.our_Process img {
+    width: 35%;
+    margin: 30px;
+    height: 50vh;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    -webkit-border-radius: 44px 44px 44px 44px;
+    border: 0px solid #000000; 
 }
 .sion{
     display: block;
