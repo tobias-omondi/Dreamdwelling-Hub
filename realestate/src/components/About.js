@@ -9,7 +9,7 @@ import Asset9 from './Asset/How To Create The Perfect Moody Dark Academia Room.j
 
 const About = () => {
   return (
-    <div className='about_us'>
+    <div cla ssName='about_us'>
       <div className='about_us_title'>
         <p>How it Started</p>
       </div>
@@ -59,6 +59,11 @@ const About = () => {
         but to foster a community where your real estate aspirations are met with clarity, confidence, and a touch<br/>
         of innovation.</p>
      </div>
+
+     <div>
+     <h1 className='sion'>Our Process .</h1>
+     </div>
+     
 
      <div className='our_vision'>
      <p>At DwellingHub, our process is designed to make your real estate journey smooth and rewarding. <br/>
