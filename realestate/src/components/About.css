@@ -104,7 +104,7 @@
     -moz-border-radius: 44px 44px 44px 44px;
     -webkit-border-radius: 44px 44px 44px 44px;
     border: 0px solid #000000; 
-    transition: transform .2s;
+     transition: transform .2s;
 }
 .our_Process img :hover {
     transform: scale(1.5);
