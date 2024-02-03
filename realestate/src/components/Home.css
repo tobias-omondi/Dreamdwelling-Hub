@@ -18,17 +18,17 @@
 }
 .house_ge h2 {
     margin-bottom: 6%;
-    padding-right: 75%; 
+    padding-right: 60%; 
     margin-top: -45%;
-    font-size: 30px; 
+    font-size: 50px; 
     color: white;
 
 }
 .house_ge p {
     margin-top: -5%; 
     color: white;
-    font-size: 20px; 
-    padding-right: 60%; 
+    font-size: 25px; 
+    padding-right: 55%; 
 }
 .btn{
     background-color: black;
@@ -36,27 +36,27 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     margin-right: 70%;
-    width: 10%;
-    padding: 7px;
+    width: 15%;
+    padding: 15px;
     margin-top: 1%;
 }
 .show_case1 {
     display: block;
     justify-content: center;
     margin-right: 70%;
-    margin-top: 7%;
+    margin-top: 3%;
 }
 .show_case2 {
     display: block;
     justify-content: center;
     margin-right: 40%;
-    margin-top: -6%;
+    margin-top: -7%;
 }
 .show_case3 {
     display: block;
     justify-content: center;
     margin-right: 10%;
-    margin-top: -6%;
+    margin-top: -8%;
 }
 .show_case1 h1 {
     font-size: 29px;
