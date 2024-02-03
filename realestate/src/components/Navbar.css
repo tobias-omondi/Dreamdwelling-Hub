@@ -3,18 +3,18 @@
     padding: 20px;
     display: flex;
     justify-content: end;
-    gap: 60px;
+    gap: 65px;
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: 10px;
     text-decoration: none;
 }
 .nav_live {
    color: black; 
-   font-size: 19px;
+   font-size: 16px;
 }
 .nav_live_btn {
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: darkgreen;
 }
