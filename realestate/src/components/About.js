@@ -76,6 +76,12 @@ const About = () => {
 
         <img src={Asset9} className='ranch3' alt='bed' />
      </div>
+     <div>
+      <h2>WHAT OUR CLIENTS SAY.</h2>
+     </div>
+     <div>
+      <h2>Meet with our Expert to reach site Top Ranking</h2>
+     </div>
      
       <div>
         <Footer />
