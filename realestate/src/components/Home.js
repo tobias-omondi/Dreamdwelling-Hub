@@ -32,18 +32,14 @@ const Home = () => {
         <h1> <span style={{color : 'Blue'}}>+</span> 100 </h1>
         <h4>Awards</h4>
       </div>
-      <div className='search'>
-        <p> Search for available Properties</p>
-
+        
+        <div className='search'>
+        <h3 className='search_words'> Search for available Properties</h3>
         <button type='button' className='properties_search_button'>Search Properties .</button><br/>
         <button type='button' className='location_search_button'>Search Location .</button><br/>
         <button type='button' className='budget_search_button'>Search by Budget .</button>
+        <input type='text' className='search_input' placeholder='Search'/>
       </div>
-
-      {/* <div className='ser_tag'>
-        <h1>Search</h1>
-        <input type='text' placeholder='Search'/>
-      </div> */}
       </div>
       <div> 
         <Footer />
