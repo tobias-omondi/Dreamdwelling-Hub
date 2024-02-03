@@ -1,7 +1,15 @@
+* {
+    box-sizing: border-box;
+}
 .house_page {
     width: 100%;
     margin: auto;
-    padding: 0;
+    padding-bottom: 55%;
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 .house_page img {
@@ -9,28 +17,28 @@
     height: auto; 
 }
 .house_ge h2 {
-    top: 30%;
-    padding-right: 80%; 
-    margin-top: -37%;
-    font-size: 25px; 
+    margin-bottom: 6%;
+    padding-right: 75%; 
+    margin-top: -45%;
+    font-size: 30px; 
     color: white;
 
 }
 .house_ge p {
-    margin-top: 1%; 
+    margin-top: -5%; 
     color: white;
     font-size: 20px; 
-    padding-right: 65%; 
+    padding-right: 60%; 
 }
 .btn{
     background-color: black;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    margin-right: 82%;
+    font-size: 18px;
+    margin-right: 70%;
     width: 10%;
     padding: 7px;
-    margin-top: 3%;
+    margin-top: 1%;
 }
 .show_case1 {
     display: block;

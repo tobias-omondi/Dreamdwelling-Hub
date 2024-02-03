@@ -8,11 +8,12 @@ const Home = () => {
 
 
   return (
+    <div className='house_page'>
     <div className='house_ge'>
       <img src={Asset4} alt='house' style={{width: '100%', height : '130vh'}}/>
       <h2>FIND A HOME <br/> THAT SUITS YOU.</h2>
-      <p>Want a Home for your family ?  We will help you get a <br/>house and with good quality
-      that suits you <br/> and your Family.</p>
+      <p>Want a Home for your family ?  We will help you get a home and with good quality 
+      that suits you and your Family.</p>
 
       <button className='btn'>
           <Link to='/login' style={{ textDecoration: 'none', color: 'inherit' }}>Get Started.</Link>
@@ -43,7 +44,7 @@ const Home = () => {
         <h1>Search</h1>
         <input type='text' placeholder='Search'/>
       </div> */}
-
+      </div>
       <div> 
         <Footer />
       </div>
