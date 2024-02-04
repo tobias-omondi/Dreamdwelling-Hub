@@ -8,6 +8,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 10px;
     text-decoration: none;
+    background: linear-gradient(0deg, #acad71 6%, #ffffff 100%);
 }
 .nav_live {
    color: black; 
@@ -22,5 +23,5 @@ button {
     color: transparent;
 }
 button:hover {
-    background-color: orange;
+    background-color: rgb(238, 198, 20);
 }

@@ -23,10 +23,13 @@ In the bustling world of real estate, where dreams and realities converge, Dream
       <img src={Asset7} style={{width:'50%',height:'85vh'}} alt='Agents city' />
       </div>
       <div className='Agents_pageeee'>
-        <img src={Asset8} />
-        <img src={Asset9} />
-        <img src={Asset10} />
-
+        <img src={Asset8} className='img1' />
+        <img src={Asset9} className='img2'/>
+        <img src={Asset10} className='img3' />
+        <hr />
+      </div>
+      <div>
+        <h1 style={{alignItems:'center',fontFamily:'serif'}}><span style={{color:'blueviolet'}}>OUR Agents.</span></h1>
       </div>
         <div>
         <Footer/>
