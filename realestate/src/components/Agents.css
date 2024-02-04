@@ -32,3 +32,24 @@
 		transform-origin: left;
 	}
 }
+
+.Agents_pageeee {
+    display: flex;
+    justify-content: center;
+}
+.Agents_pageeee img {
+    width: 36%;
+    padding: 90px;
+    animation: myAnime 5s ease-in 0s 1 normal forwards;
+}
+@keyframes myAnime {
+	0% {
+		opacity: 0;
+		transform: translateY(250px) rotate(200deg);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0) rotate(0deg);
+	}
+}

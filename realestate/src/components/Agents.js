@@ -2,6 +2,9 @@ import React from 'react'
 import Footer from './Footer'
 import './Agents.css'
 import Asset7 from './Asset/Premium Photo _ A jet plane flying over the city.jpeg'
+import Asset8 from './Asset/Pin by The Elegant Choice on Exteriors ~ Gardens _ House exterior, Tuscan house, House designs exterior.jpeg'
+import Asset9 from './Asset/San Carlos Spanish Addition_Remodel - Mediterranean - San Francisco - by Studio S Squared Architecture, Inc_ _ Houzz.jpeg'
+import Asset10 from './Asset/_ (6).jpeg'
 
 const Agents = () => {
   return (
@@ -18,6 +21,12 @@ With an unwavering commitment to excellence, DreamDwelling Hub's agents go above
 
 In the bustling world of real estate, where dreams and realities converge, DreamDwelling Hub's agents shine as beacons of trust, reliability, and unwavering dedication to turning dreams into cherished realities.</p>
       <img src={Asset7} style={{width:'50%',height:'85vh'}} alt='Agents city' />
+      </div>
+      <div className='Agents_pageeee'>
+        <img src={Asset8} />
+        <img src={Asset9} />
+        <img src={Asset10} />
+
       </div>
         <div>
         <Footer/>
