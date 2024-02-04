@@ -5,16 +5,19 @@
     background-color: rgb(238, 198, 20);
     display: flex;
    justify-content: center;
-   justify-content: end;
+   justify-content: space-evenly;
     
 }
 .Agents_pagee img {
-    margin-left: 20%;
+    margin-left: 10%;
     animation: myAnim 2s ease-in 0s 1 normal forwards;
 }
-.Agents_pagee h1,p {
-    display: block;
-    margin-right: 1%;
+.Agents_pagee p {
+    margin-top: 8%;
+    font-size: 15px;
+}
+.Agents_pagee h1 {
+    margin-left: 2%;
 }
 @keyframes myAnim {
 	0% {

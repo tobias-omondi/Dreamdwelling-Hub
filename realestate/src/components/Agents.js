@@ -7,7 +7,7 @@ const Agents = () => {
   return (
     <div className='Agents_pageee'>
     <div className='Agents_pagee'>
-    <h1 style={{color:'white'}}>Where Dreams Meet Reality</h1>
+    <h1 style={{color:'white'}}><b>Where Dreams </b><span style={{color:'lightgreen'}}> <i>Meet Reality.</i></span></h1>
     <p style={{color:'white'}}>DreamDwelling Hub stands as a beacon in the realm of real estate, renowned for its exceptional team of agents who bring dreams to life in the form of cherished homes. These agents, more than mere intermediaries between buyers and sellers, are architects of aspirations, navigators of hopes, and custodians of dreams.
 
 Navigating the intricate landscape of real estate, DreamDwelling Hub's agents possess an unparalleled expertise honed through years of experience and a deep understanding of market dynamics. They are adept at discerning the unique desires and needs of their clients, ensuring that every transaction is tailored to perfection.
