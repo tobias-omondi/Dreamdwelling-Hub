@@ -20,7 +20,7 @@ Beyond their professional acumen, DreamDwelling Hub's agents are passionate stor
 With an unwavering commitment to excellence, DreamDwelling Hub's agents go above and beyond to exceed expectations. They stand as pillars of support, guiding clients through every step of the journey with integrity, transparency, and a steadfast dedication to achieving the best possible outcomes.
 
 In the bustling world of real estate, where dreams and realities converge, DreamDwelling Hub's agents shine as beacons of trust, reliability, and unwavering dedication to turning dreams into cherished realities.</p>
-      <img src={Asset7} style={{width:'50%',height:'85vh'}} alt='Agents city' />
+      <img src={Asset7} style={{width:'100%',height:'85vh'}} alt='Agents city' />
       </div>
       <div className='Agents_pageeee'>
         <img src={Asset8} className='img1' />
