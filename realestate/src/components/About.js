@@ -61,7 +61,7 @@ const About = () => {
      </div>
 
      <div>
-     <h1 className='sion2' style={{fontFamily:'inherit'}}>Our Process .</h1>
+     <h1 className='sion2'>Our Process .</h1>
      </div>
      
 
