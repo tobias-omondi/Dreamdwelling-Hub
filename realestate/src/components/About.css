@@ -1,5 +1,9 @@
+.about_us{
+    
+}
+
 .about_us_title {
-    font-size: 25px;
+    font-size: 30px;
     align-items: center;
     font-family: 'Irish Grover';
 }
@@ -9,28 +13,30 @@
     width: 100%;
     padding: 0px; 
     align-items: center;
+    background-color: rgb(65, 40, 40);
 }
 .about_stories p {
     font-size: 15px;
     font-family: "Times New Roman", Times, serif;
     font-weight: 800;
-    padding: 12px;
+    padding: 15px;
     margin: 5px;
     color: white;
-    background-color:  rgb(238, 198, 20);
+    background-color:  rgb(7, 7, 7);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 31px 31px 31px 31px;
     -webkit-border-radius: 31px 31px 31px 31px;
     -moz-border-radius: 31px 31px 31px 31px;
 }
 .about_stories img {
-    width: 18%;
+    width: 20%;
     border-radius: 31% 69% 23% 77% / 66% 18% 82% 34%;
-    height: 35vh;                
+    height: 40vh;                
 }
 .our_vision {
     display: flex;
     justify-content: space-around;
+    background-color: rgb(56, 45, 45);
 }
 .our_vision p {
     font-size: 15px;
@@ -38,7 +44,7 @@
     font-weight: 800;
     padding: 12px;
     margin: 90px;
-    background-color: lightgreen;
+    background-color: rgb(246, 253, 246);
     width: 70%;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 31px 31px 31px 31px;
@@ -58,14 +64,16 @@
 .our_Approach {
     display: flex;
     justify-content: space-around;
+    height: 85vh;
+    background-color: rgb(56, 45, 45);
 }
 .our_Approach p {
-    font-size: 15px;
+    font-size: 14px;
     font-family: "Times New Roman", Times, serif;
     font-weight: 800;
-    padding: 12px;
+    padding: 14px;
     margin: 90px;
-    background-color: lightgreen;
+    background-color: white;
     width: 70%;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 31px 31px 31px 31px;
@@ -73,9 +81,9 @@
     -moz-border-radius: 31px 31px 31px 31px;
 }
 .our_Approach img {
-    width: 35%;
+    width: 45%;
     margin: 30px;
-    height: 50vh;
+    height: 75vh;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     border-radius: 44px 44px 44px 44px;
     -moz-border-radius: 44px 44px 44px 44px;
@@ -85,14 +93,16 @@
 .our_Process  {
     display: flex;
     justify-content: space-around;
+    height: 80vh;
+    background-color: rgb(56, 45, 45);
 }
 .our_Process p {
-    font-size: 15px;
+    font-size: 16px;
     font-family: "Times New Roman", Times, serif;
     font-weight: 800;
-    padding: 12px;
+    padding: 15px;
     margin: 90px;
-    background-color: lightgreen;
+    background-color: white;
     width: 70%;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 31px 31px 31px 31px;
@@ -102,7 +112,7 @@
 .our_Process img {
     width: 35%;
     margin: 30px;
-    height: 50vh;
+    height: 70vh;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     border-radius: 44px 44px 44px 44px;
     -moz-border-radius: 44px 44px 44px 44px;

@@ -9,9 +9,9 @@ import Asset9 from './Asset/How To Create The Perfect Moody Dark Academia Room.j
 
 const About = () => {
   return (
-    <div cla ssName='about_us'>
+    <div className='about_us'>
       <div className='about_us_title'>
-        <p>How it Started</p>
+        <p>How it Started.</p>
       </div>
       <div className='about_stories'>
 
