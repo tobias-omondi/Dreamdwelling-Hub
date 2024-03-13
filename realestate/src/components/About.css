@@ -9,7 +9,7 @@
     width: 100%;
     padding: 0px; 
     align-items: center;
-    background-color: rgb(65, 40, 40);
+  
 }
 .about_stories p {
     font-size: 15px;
@@ -32,7 +32,7 @@
 .our_vision {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(56, 45, 45);
+ 
 }
 .our_vision p {
     font-size: 15px;
@@ -61,7 +61,7 @@
     display: flex;
     justify-content: space-around;
     height: 85vh;
-    background-color: rgb(56, 45, 45);
+  
 }
 .our_Approach p {
     font-size: 14px;
@@ -90,7 +90,6 @@
     display: flex;
     justify-content: space-around;
     height: 80vh;
-    background-color: rgb(56, 45, 45);
 }
 .our_Process p {
     font-size: 16px;

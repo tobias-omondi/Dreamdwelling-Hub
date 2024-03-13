@@ -6,10 +6,12 @@ import Asset6 from './Asset/Outdoor Products_ Cabinetry.jpeg'
 import Asset7 from './Asset/Хрупкое равновесие (18+) - Промо фото.jpeg'
 import Asset8 from './Asset/_Cheerful Black Afro Couple Kitchen__ by Stocksy Contributor _Ivan Gener_.jpeg'
 import Asset9 from './Asset/How To Create The Perfect Moody Dark Academia Room.jpeg'
+import asset15 from './Asset/az3h.jpeg'
 
 const About = () => {
   return (
     <div className='about_us'>
+      <img src={asset15} style={{width:"90%",height:"65vh"}}  alt='house'/>
       <div className='about_us_title'>
         <p>How it Started.</p>
       </div>
