@@ -40,13 +40,13 @@ const Footer = () => {
         <div className='footer_page'>
             <h4>Follow US</h4>
             <a href={faceBookUrl} target = "blank" alt = 'facebook'>
-                <img src= {Asset1} alt='fb'/> </a>
+                <img src= {Asset1} style={{width:'10%'}} alt='fb'/> </a>
 
             <a href={instaGram} target = "blank" alt = 'ig'>
-                <img src= {Asset2} alt='gram'/> </a>
+                <img src= {Asset2} style={{width:'10%'}} alt='gram'/> </a>
 
             <a href={twitter} target = "blank" alt = 'x'>
-                <img src= {Asset3} alt='twit'/> </a>
+                <img src= {Asset3} style={{width:'10%'}} alt='twit'/> </a>
                
             
         </div>

@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     gap: 10%;
-    margin-top: 60%;
+    margin-top: 100%;
 }
 .footer_logo {
     display: block;
@@ -49,6 +49,6 @@
     padding: 5px;
 }
 .footer_page img {
-    width: 6%;
+    width: 10%;
     padding: 10px;
 }
