@@ -1,0 +1,37 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+form{
+    border: solid rgb(185, 126, 126) 2px;
+    margin: 50px;
+    font-size: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding: 20px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/013/948/200/non_2x/doubting-businessman-making-decision-to-buy-or-rent-a-house-sale-purchase-lease-rent-of-real-estate-concept-cartoon-doodle-flat-illustration-vector.jpg");
+    background-attachment: fixed;
+    filter: contrast(80%) brightness(140%);
+    background-size: 85% 85%;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 55%;
+    padding-left: 35%;
+    margin-left: 39%;
+}
+label{
+    color: rgb(11, 11, 17);
+    padding: 50px;
+    margin-bottom: 20px;
+  font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+input{
+    padding: 5px;
+    margin: 10px;
+    color: black;
+}
+button{
+    color: black;
+    background-color: rgb(238, 255, 0);
+}

@@ -1,9 +1,10 @@
 // LoginForm.js
 import React, { useState } from 'react';
+import './Login.css'
 
 const LoginForm = () => {
   const [formData, setFormData] = useState({
-    username: '',
+    email: '',
     password: '',
   });
 
@@ -18,17 +19,19 @@ const LoginForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Add your login logic here, e.g., make an API request to authenticate the user
-    console.log('Form submitted with data:', formData);
+    console.log('Form was successful submited:', formData);
+    alert('login Successful')
     // You can replace the above console.log with your actual login logic
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} id='form-login'>
+      <h3>Login</h3>
       <label>
-        Username:
+        Email:
         <input
-          type="text"
-          name="username"
+          type="email"
+          name="email"
           value={formData.username}
           onChange={handleChange}
         />
@@ -41,10 +44,14 @@ const LoginForm = () => {
           name="password"
           value={formData.password}
           onChange={handleChange}
-        adkhjdshskjfkhjkjhh/>
+      />
+      </label>
+      <label>
+        checkbox:
+        <input type='checkbox'/>
       </label>
       <br />
-      <button type="submit">Login</button>
+      <button type="submit" id='btn-login'>Login</button>
     </form>
   );
 };
