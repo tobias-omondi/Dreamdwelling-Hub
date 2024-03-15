@@ -47,11 +47,21 @@ const LoginForm = () => {
       />
       </label>
       <label>
-        checkbox:
+        Remember Me:
         <input type='checkbox'/>
       </label>
       <br />
-      <button type="submit" id='btn-login'>Login</button>
+      <button type="submit" id='btn-login'
+      style={{
+        backgroundColor: '#007bff', 
+        color: '#fff', 
+        padding: '10px 20px', 
+        border: 'none', 
+        borderRadius: '5px',
+        cursor: 'pointer', 
+        outline: 'none',
+        transition: 'background-color 0.3s', 
+      }}>Login</button>
     </form>
   );
 };
