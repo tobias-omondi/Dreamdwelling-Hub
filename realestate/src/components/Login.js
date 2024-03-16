@@ -34,6 +34,7 @@ const LoginForm = () => {
           name="email"
           value={formData.username}
           onChange={handleChange}
+        required
         />
       </label>
       <br />
@@ -44,11 +45,15 @@ const LoginForm = () => {
           name="password"
           value={formData.password}
           onChange={handleChange}
+      required
       />
       </label>
       <label>
         Remember Me:
-        <input type='checkbox'/>
+        <input type='checkbox'
+        name='checkbox'
+        required
+        />
       </label>
       <br />
       <button type="submit" id='btn-login'
